@@ -20,8 +20,10 @@ This will watch the project directory and restart as necessary.
 
 ## Deploying
 
-I didn't want to bother with creating a GH action for deploying this, so next time you want to deploy, do the following:
+~I didn't want to bother with creating a GH action for deploying this, so next time you want to deploy, do the following:~
 
-1. Ensure you have [`deployctl` installed](https://docs.deno.com/deploy/manual/deployctl).
-2. Run `deployctl` from the root of the project.
-3. That's it! This will push your source to Deno which will build and deploy.
+1. ~Ensure you have [`deployctl` installed](https://docs.deno.com/deploy/manual/deployctl).~
+2. ~Run `deployctl` from the root of the project.~
+3. ~That's it! This will push your source to Deno which will build and deploy.~
+
+Errh - seems like Deno Deploy's GH integration automatically sets up the correct action. Feel free to simply push to `main` to deploy.
