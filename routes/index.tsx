@@ -6,8 +6,8 @@ export default function Home() {
       <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
         <h1 class="text-6xl font-normal pacifico-regular">Wine</h1>
         <p class="my-4">
-          Welcome to the Wine! This app is a simple wine aroma wheel that allows
-          you to explore the different aromas that can be found in wine.
+          When tasting wine, it can sometimes be difficult to idenity different
+          flavours. This little tool guides you along the way.
         </p>
       </div>
       <WineWheel />
