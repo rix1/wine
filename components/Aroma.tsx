@@ -18,7 +18,7 @@ function Aroma({ aroma, selectedTastes }: Props) {
 
   return (
     <>
-      <h2 class="font-bold text-center mb-5 pacifico-regular text-2xl text-green-900 relative">
+      <h2 class="font-bold text-center mb-5 pacifico-regular text-2xl relative">
         {aroma} {tastes.length > 0 && (
           <button
             class="absolute top-2 right-2"
@@ -48,7 +48,7 @@ function Aroma({ aroma, selectedTastes }: Props) {
                   selectedTastes.value = [...selectedTastes.value, taste];
                   setTastes([]);
                 }}
-                class="capitalize bg-green-500/20 px-3 rounded-md hover:bg-green-500/40 text-green-800"
+                class="capitalize px-3 rounded-md badge"
               >
                 {taste.replaceAll("_", " ")}
               </button>
@@ -60,7 +60,7 @@ function Aroma({ aroma, selectedTastes }: Props) {
                 onClick={() => {
                   setTastes(getTastes(aroma, category));
                 }}
-                class="capitalize bg-green-500/20 px-3 rounded-md hover:bg-green-500/40 text-green-800"
+                class="capitalize px-3 rounded-md badge"
               >
                 {category.replaceAll("_", " ")}
               </button>

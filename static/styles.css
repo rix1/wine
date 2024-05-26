@@ -7,3 +7,24 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.bg-green-100 .badge {
+  @apply bg-green-500/20;
+  @apply hover:bg-green-500/40;
+  @apply active:bg-green-500/60;
+}
+.bg-orange-100 .badge {
+  @apply bg-orange-500/20;
+  @apply hover:bg-orange-500/40;
+  @apply active:bg-orange-500/60;
+}
+.bg-pink-100 .badge {
+  @apply bg-pink-500/20;
+  @apply hover:bg-pink-500/40;
+  @apply active:bg-pink-500/60;
+}
+.bg-gray-100 .badge {
+  @apply bg-gray-500/20;
+  @apply hover:bg-gray-500/40;
+  @apply active:bg-gray-500/60;
+}
